@@ -1,0 +1,28 @@
+a{
+    text-decoration:        none;
+}
+#banner{
+    height: 100vh;
+    background-image: url(images/home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+.text{
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+}
+.link{
+    width: fit-content;
+    padding: 12.8px 50.8px;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 30px;
+    border: 1px solid #fff;
+    transition: ease-in-out .3s;
+}
+.link:hover{
+    background-color: #fff;
+    color: black;
+}

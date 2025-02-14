@@ -1,0 +1,96 @@
+.links li{
+    position: relative;
+}
+.links li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transition: all linear .3s;
+}
+.links li:hover::after{
+    width: 65%;
+}
+.navbar-end button{
+    position: relative;
+}
+.navbar-end button::after{
+    content: 'Search';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: absolute;
+    left: -5px;
+    transform: translateY(-10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-end button:hover::after{
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1;
+}
+.navbar-end .log_in{
+    position: relative;
+}
+.navbar-end .log_in::after{
+    content: 'LogIn';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: absolute;
+    left: -5px;
+    transform: translateY(-10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-end .log_in:hover::after{
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1;
+}
+.navbar-end .wishlist{
+    position: relative;
+}
+.navbar-end .wishlist::after{
+    content: 'Wishlist';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: absolute;
+    left: -5px;
+    transform: translateY(-10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-end .wishlist:hover::after{
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1;
+}
+.navbar-end .my_cart{
+    position: relative;
+}
+.navbar-end .my_cart::after{
+    content: 'My_cart';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: absolute;
+    left: -5px;
+    transform: translateY(-10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-end .my_cart:hover::after{
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1;
+}
