@@ -1,4 +1,4 @@
-.link{
+#collection .links{
     width: 80%;
     height: 10%;
     background-color: rgba(255, 255, 255, 0.80);
@@ -11,6 +11,8 @@
     color: rgba(0, 0, 0, 0.83);
     font-size: 16px;
     font-weight: 600;
+    border-radius: 30px;
+    transition: ease-in-out .3s;
 
 }
 .img{
@@ -22,7 +24,7 @@ img{
     width: 100%;
     transition: all linear .3s;
 }
-.img:hover .link{
+#collection .img:hover .links{
     background-color: white;
 }
 .img:hover img{

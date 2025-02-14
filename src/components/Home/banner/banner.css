@@ -7,20 +7,20 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 0;
 }
 .text{
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 4%;
 }
 .link{
     width: fit-content;
-    padding: 12.8px 50.8px;
+    padding: 17.8px 50.8px;
     background-color: rgba(0, 0, 0, 0.233);
     border-radius: 30px;
     border: 1px solid #fff;
     transition: ease-in-out .3s;
+    transform: translate(-40px, 50px);
 }
 .link:hover{
     background-color: #fff;
