@@ -1,3 +1,40 @@
-.img_one{
-    
+
+#design .img_one{
+    position: relative;
+    max-width: 929px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#design .img_one:hover img{
+    transform: scale(1.05);
+}
+#design .img_one img{
+    width: 100%;
+    transition:ease-in-out .3s;
+}
+#design .img_one .design_one_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#design .img_two{
+    position: relative;
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition:ease-in-out .3s;
+}
+#design .img_two img{
+    width: 100%;
+}
+#design .img_two .design_two_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#design .img_two:hover img{
+    transform: scale(1.05);
 }
