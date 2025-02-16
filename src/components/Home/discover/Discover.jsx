@@ -1,14 +1,20 @@
 import React from 'react'
 import './discover.css'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from "react";
 
 const Discover = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
     <>
         <div id="discover" className='mb-20'>
             <div className="container">
                 <div className="row flex gap-6">
-                    <div className="discover_img_one relative">
+                    <div data-aos="zoom-in" data-aos-duration='2000' className="discover_img_one relative">
                         <div className="img">
                             <img src="images/discover1.png" alt="discover1" />
                         </div>
@@ -19,7 +25,7 @@ const Discover = () => {
                             <Link className='disc_link text-sm font-archivo font-normal text-white leading-[41px] '>DISCOVER COLLECTION</Link>
                         </div>
                     </div>
-                    <div className="discover_img_one relative">
+                    <div data-aos="zoom-in" data-aos-duration='2000' className="discover_img_one relative">
                         <div className="img">
                             <img src="images/discover2.png" alt="discover2" />
                         </div>
