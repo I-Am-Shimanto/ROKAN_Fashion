@@ -1,0 +1,18 @@
+#best_seller .single_card{
+    width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller1_1.png);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+#best_seller .heart{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 50%;
+    
+}

@@ -31,3 +31,6 @@ img{
 .img:hover img{
     transform: scale(1.02);
 }
+.slick-slider{
+    overflow: hidden;
+}

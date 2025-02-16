@@ -8,7 +8,7 @@ import './collection.css'
 
 const Collection = () => {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
         slidesToShow: 4,
