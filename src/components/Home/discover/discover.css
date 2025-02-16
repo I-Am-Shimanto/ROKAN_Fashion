@@ -1,0 +1,94 @@
+#discover .disc_link{
+    position: relative;
+    
+}
+#discover .disc_link::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: .5s;
+}
+#discover .disc_link:hover::after{
+    width: 100%;
+}
+#discover img:hover{
+    transform: scale(1.07);
+}
+/* =============== responsive ================= */
+@media only screen and (max-width: 575.98px) {
+    #discover .row{
+        flex-direction: column;
+        gap: 170px;
+        overflow: visible;
+    }
+    #discover .discover_text{
+        bottom: -80%;
+        left: 0;
+        
+    }
+    #discover .discover_text .disc_link::after{
+        background-color: black;
+    }
+    #discover .discover_text h3,p,.disc_link{
+        color: black;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    #discover .row{
+        flex-direction: column;
+        gap: 170px;
+    }
+    #discover .discover_text{
+        bottom: -40%;
+        left: 0;
+        
+    }
+    #discover .discover_text .disc_link::after{
+        background-color: black;
+    }
+    #discover .discover_text h3,p,.disc_link{
+        color: black;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    #discover .row{
+        flex-direction: column;
+        gap: 170px;
+    }
+    #discover .discover_text{
+        bottom: -25%;
+        left: 0;
+        
+    }
+    #discover .discover_text .disc_link::after{
+        background-color: black;
+    }
+    #discover .discover_text h3,p,.disc_link{
+        color: black;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    #discover .row{
+        flex-direction: column;
+        gap: 170px;
+    }
+    #discover .discover_text{
+        bottom: -21%;
+        left: 0;
+        
+    }
+    #discover .discover_text .disc_link::after{
+        background-color: black;
+    }
+    #discover .discover_text h3,p,.disc_link{
+        color: black;   
+        max-width: 100%;
+    }
+}

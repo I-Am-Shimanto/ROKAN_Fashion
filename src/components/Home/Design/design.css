@@ -38,3 +38,82 @@
 #design .img_two:hover img{
     transform: scale(1.05);
 }
+
+/* ============ responsive ============= */
+@media only screen and (max-width: 575.98px) {
+    /* hide element on small screens */
+    #design .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+ 
+    #design .row .design_one_text h3{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    #design .row .design_one_text h2{
+        font-size: 17px;
+        line-height: 16px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    #design .row .design_one_text p{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 767.98px) {
+    /* hide element on small screens */
+    #design .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+ 
+    #design .row .design_one_text h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #design .row .design_one_text h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    #design .row .design_one_text p{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 991.98px) {
+    /* hide element on small screens */
+    #design .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+ 
+    #design .row .design_one_text h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #design .row .design_one_text h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    #design .row .design_one_text p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width: 1199.98px) {
+    /* hide element on small screens */
+    #design .row{
+        gap: 30px;
+    }
+ 
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1399.98px) {
+    /* hide element on small screens */
+    #design .row{
+        gap: 30px;
+    }
+ 
+}

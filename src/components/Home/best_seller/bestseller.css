@@ -1,10 +1,28 @@
+#best_seller {
+    margin-bottom: 80px;
+}
+.main_card{
+    max-width: 330px;
+    margin: 0 10px;
+
+}
+
 #best_seller .single_card{
-    width: 330px;
+    max-width: 330px;
     height: 440px;
     background-image: url(images/bestseller1_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card:hover{
+    background-image: url(images/bestseller1_2.png);
+
 }
 #best_seller .heart{
     position: absolute;
@@ -14,5 +32,315 @@
     height: 38px;
     background-color: white;
     border-radius: 50%;
-    
+    padding: 9px;
+    color: black;
+    cursor: pointer;
+    transition: ease-in-out .2s;
 }
+
+#best_seller .heart:hover{
+    background-color: black;
+    color: white;
+}
+
+#best_seller .copy{
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    transform: translateX(10px);
+    visibility: hidden;
+    opacity: 0;
+}
+
+#best_seller .copy:hover{
+    background-color: black;
+    color: white;
+}
+#best_seller .main_card:hover .copy{
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+}
+#best_seller .search{
+    position: absolute;
+    top: 105px;
+    right: 15px;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    transform: translateX(10px);
+    visibility: hidden;
+    opacity: 0;
+}
+
+#best_seller .search:hover{
+    background-color: black;
+    color: white;
+}
+#best_seller .main_card:hover .search{
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+}
+#best_seller .seller_btn{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0;
+    border-radius: 20px;
+    font-size: 16px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+#best_seller .seller_btn:hover{
+    background-color: black;
+    color: white;
+}
+#best_seller .main_card:hover .seller_btn{
+    bottom: 20px;
+    visibility: visible;
+    opacity: 1;
+}
+#best_seller .gray{
+    transition: .2s;
+}
+#best_seller .gray:hover{
+    background-color: #7B4B39;
+}
+#best_seller .green{
+    transition: .2s;
+}
+#best_seller .green:hover{
+    background-color: #008080;
+}
+/* ======= card_two image change ======= */
+#best_seller .single_card_two{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller2_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_two:hover{
+    background-image: url(images/bestseller2_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+/* ======= card_three image change ======= */
+#best_seller .single_card_three{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller3_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_three:hover{
+    background-image: url(images/bestseller3_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+/* ======= card_four image change ======= */
+#best_seller .single_card_four{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller4_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_four:hover{
+    background-image: url(images/bestseller4_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+/* ======= card_five image change ======= */
+#best_seller .single_card_five{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller5_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_five:hover{
+    background-image: url(images/bestseller5_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+/* ======= card_six image change ======= */
+#best_seller .single_card_six{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller6_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_six:hover{
+    background-image: url(images/bestseller6_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+/* ======= card_seven image change ======= */
+#best_seller .single_card_seven{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller7_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_seven:hover{
+    background-image: url(images/bestseller7_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+/* ======= card_eight image change ======= */
+#best_seller .single_card_eight{
+    max-width: 330px;
+    height: 440px;
+    background-image: url(images/bestseller8_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+#best_seller .single_card_eight:hover{
+    background-image: url(images/bestseller8_2.png);
+
+}
+#best_seller .black{
+    transition: .2s;
+}
+#best_seller .black:hover{
+    background-color: #000;
+}
+#best_seller .purple{
+    transition: .2s;
+}
+#best_seller .purple:hover{
+    background-color: #D7B2BB;
+}
+

@@ -97,3 +97,11 @@
     visibility: visible;
     opacity: 1;
 }
+
+/* ============= responsive ============ */
+@media only screen and (max-width: 480px) {
+    .navbar-end button,.log_in{
+        display: none;
+    }
+    
+ }
