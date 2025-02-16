@@ -10,7 +10,7 @@
 #best_seller .single_card{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller1_1.png);
+    background-image: url(images/bestseller1_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@
     cursor: pointer;
 }
 #best_seller .single_card:hover{
-    background-image: url(./img/bestseller1_2.png);
+    background-image: url(images/bestseller1_2.png);
 
 }
 #best_seller .heart{
@@ -137,7 +137,7 @@
 #best_seller .single_card_two{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller2_1.png);
+    background-image: url(images/bestseller2_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_two:hover{
-    background-image: url(./img/bestseller2_2.png);
+    background-image: url(images/bestseller2_2.png);
 
 }
 #best_seller .black{
@@ -167,7 +167,7 @@
 #best_seller .single_card_three{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller3_1.png);
+    background-image: url(images/bestseller3_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +178,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_three:hover{
-    background-image: url(./img/bestseller3_2.png);
+    background-image: url(images/bestseller3_2.png);
 
 }
 #best_seller .black{
@@ -197,7 +197,7 @@
 #best_seller .single_card_four{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller4_1.png);
+    background-image: url(images/bestseller4_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +208,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_four:hover{
-    background-image: url(./img/bestseller4_2.png);
+    background-image: url(images/bestseller4_2.png);
 
 }
 #best_seller .black{
@@ -227,7 +227,7 @@
 #best_seller .single_card_five{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller5_1.png);
+    background-image: url(images/bestseller5_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +238,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_five:hover{
-    background-image: url(./img/bestseller5_2.png);
+    background-image: url(images/bestseller5_2.png);
 
 }
 #best_seller .black{
@@ -257,7 +257,7 @@
 #best_seller .single_card_six{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller6_1.png);
+    background-image: url(images/bestseller6_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,7 +268,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_six:hover{
-    background-image: url(./img/bestseller6_2.png);
+    background-image: url(images/bestseller6_2.png);
 
 }
 #best_seller .black{
@@ -287,7 +287,7 @@
 #best_seller .single_card_seven{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller7_1.png);
+    background-image: url(images/bestseller7_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +298,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_seven:hover{
-    background-image: url(./img/bestseller7_2.png);
+    background-image: url(images/bestseller7_2.png);
 
 }
 #best_seller .black{
@@ -317,7 +317,7 @@
 #best_seller .single_card_eight{
     max-width: 330px;
     height: 440px;
-    background-image: url(./img/bestseller8_1.png);
+    background-image: url(images/bestseller8_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -328,7 +328,7 @@
     cursor: pointer;
 }
 #best_seller .single_card_eight:hover{
-    background-image: url(./img/bestseller8_2.png);
+    background-image: url(images/bestseller8_2.png);
 
 }
 #best_seller .black{

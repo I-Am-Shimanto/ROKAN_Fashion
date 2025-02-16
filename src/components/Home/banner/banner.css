@@ -3,7 +3,7 @@ a{
 }
 #banner{
     height: 100vh;
-    background-image: url(images/home_bg.png);
+    background-image: url(./img/home_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
